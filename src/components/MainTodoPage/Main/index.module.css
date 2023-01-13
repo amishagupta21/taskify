@@ -1,0 +1,192 @@
+.conatiner {
+    height: 100vh;
+    width: 100%;
+    background-color: #F1F5F9;
+    position: relative;
+}
+
+
+.header {
+    padding-bottom:96px;
+    padding-bottom:96px;
+    background-image: url("../../../assests/images/mainScreen.svg");
+}
+
+.header h1 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+
+.dateField {
+    padding: 24px 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.taskSection {
+    padding: 0px 16px;
+}
+
+.taskSection h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin: 24px 0px;
+
+}
+
+.taskList {
+    height: 242px;
+    margin-top: -64px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    overflow: scroll;
+
+}
+
+.taskConatiner {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    padding: 16px 16px;
+    border-bottom: 1px solid #F1F5F9;
+
+}
+
+.task {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.task img {
+    margin-right: 12px;
+}
+
+.task p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    color: #1B1B1D;
+
+}
+
+.taskConatiner input {
+    width: 24px;
+    height: 24px;
+}
+
+.taskCategory {
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #F1F5F9;
+
+}
+
+.category {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 16px 16px;
+    gap: 12px;
+    flex: 1;
+}
+
+.text p:nth-child(1) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    color: #1B1B1D
+}
+
+.text p:nth-child(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #1B1B1D;
+    opacity: 0.7;
+}
+
+.taskCategory input {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.completedTask {
+    height: 350px;
+    background-color:#FFFFFF;
+    border-radius: 16px;
+    overflow: scroll;
+   
+}
+
+.completedCategory {
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.completedCategory img {
+    margin-right: 16px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+
+.buttonContainer{
+    position: absolute;
+    bottom: 24px;
+    left: 0px;
+    width: 100%;
+    padding: 0px 16px;
+}
+
+.addField {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 0px;
+    background-color: #4A3780;
+    border-radius: 50px;
+  
+}
+
+@media screen and (min-width:500px) {
+    .conatiner {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+    .completedTask{
+        height: 120px;
+    }
+}
