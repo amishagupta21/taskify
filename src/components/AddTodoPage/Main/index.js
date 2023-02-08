@@ -5,8 +5,8 @@ import closeicon from "../../../assests/icons/closeicon.svg"
 import notesIcon from "../../../assests/icons/notes.svg"
 import eventIcon from "../../../assests/icons/calender.svg"
 import rewardsIcon from "../../../assests/icons/rewards.svg"
-import dateIcon from "../../../assests/icons/date.svg"
-import timeIcon from "../../../assests/icons/time.svg"
+// import dateIcon from "../../../assests/icons/date.svg"
+// import timeIcon from "../../../assests/icons/time.svg"
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { addTaskAction } from '../../../redux/actions/todoAction'
