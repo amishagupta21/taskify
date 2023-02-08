@@ -34,7 +34,6 @@ const Main = () => {
             return <Todo key={task.id} todo={task} />
           })}
         </div>
-
       </div>
 
       {/* submit section */}

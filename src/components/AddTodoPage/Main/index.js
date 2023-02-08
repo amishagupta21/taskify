@@ -102,16 +102,16 @@ const Main = () => {
                     <div className={styles.fieldContainer}>
                         <p>Date</p>
                         <div className={styles.inputField}>
-                            <input type="text" placeholder='Date' value={date} onChange={dateHandler} />
-                            <img src={dateIcon} height={20} width={20} alt="date_icon" />
+                            <input type="date" placeholder='Date' value={date} onChange={dateHandler} />
+                            {/* <img src={dateIcon} height={20} width={20} alt="date_icon" /> */}
                         </div>
                     </div>
 
                     <div className={styles.fieldContainer}>
                         <p>Time</p>
                         <div className={styles.inputField}>
-                            <input type="text" placeholder='Time' value={time} onChange={timeHandler} />
-                            <img src={timeIcon} height={20} width={20} alt="time_icon" />
+                            <input type="time" placeholder='Time' value={time} onChange={timeHandler} />
+                            {/* <img src={timeIcon} height={20} width={20} alt="time_icon" /> */}
                         </div>
                     </div>
                 </div>
